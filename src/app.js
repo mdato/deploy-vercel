@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'funca bien',
+    message: `working OK - https://argentinasoccer.vercel.app/ - https://argentinasoccer.vercel.app/api/v1/ - https://argentinasoccer.vercel.app/api/v1/argentina`,
   });
 });
 
